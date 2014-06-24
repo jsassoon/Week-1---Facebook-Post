@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FB7D2C2BCD9469C8DA21DDE /* libPods-Week 1 - Facebook Post.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B01EA61EEF4763AB3F524A /* libPods-Week 1 - Facebook Post.a */; };
 		94F377FE195898FE0056D13F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F377FD195898FE0056D13F /* Foundation.framework */; };
 		94F37800195898FE0056D13F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F377FF195898FE0056D13F /* CoreGraphics.framework */; };
 		94F37802195898FE0056D13F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F37801195898FE0056D13F /* UIKit.framework */; };
@@ -19,6 +20,10 @@
 		94F37819195898FE0056D13F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F37801195898FE0056D13F /* UIKit.framework */; };
 		94F37821195898FE0056D13F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94F3781F195898FE0056D13F /* InfoPlist.strings */; };
 		94F37823195898FE0056D13F /* Week_1___Facebook_PostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F37822195898FE0056D13F /* Week_1___Facebook_PostTests.m */; };
+		94F3782F1958EBED0056D13F /* postViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F3782D1958EBED0056D13F /* postViewController.m */; };
+		94F378301958EBED0056D13F /* postViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F3782E1958EBED0056D13F /* postViewController.xib */; };
+		94F378341959375E0056D13F /* pictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F378321959375E0056D13F /* pictureViewController.m */; };
+		94F378351959375E0056D13F /* pictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F378331959375E0056D13F /* pictureViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FD858DFC276467E9B2B0054 /* Pods-Week 1 - Facebook Post.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week 1 - Facebook Post.xcconfig"; path = "Pods/Pods-Week 1 - Facebook Post.xcconfig"; sourceTree = "<group>"; };
+		52B01EA61EEF4763AB3F524A /* libPods-Week 1 - Facebook Post.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Week 1 - Facebook Post.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F377FA195898FE0056D13F /* Week 1 - Facebook Post.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week 1 - Facebook Post.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F377FD195898FE0056D13F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		94F377FF195898FE0056D13F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +55,12 @@
 		94F3781E195898FE0056D13F /* Week 1 - Facebook PostTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Week 1 - Facebook PostTests-Info.plist"; sourceTree = "<group>"; };
 		94F37820195898FE0056D13F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94F37822195898FE0056D13F /* Week_1___Facebook_PostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Week_1___Facebook_PostTests.m"; sourceTree = "<group>"; };
+		94F3782C1958EBED0056D13F /* postViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = postViewController.h; sourceTree = "<group>"; };
+		94F3782D1958EBED0056D13F /* postViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = postViewController.m; sourceTree = "<group>"; };
+		94F3782E1958EBED0056D13F /* postViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = postViewController.xib; sourceTree = "<group>"; };
+		94F378311959375E0056D13F /* pictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pictureViewController.h; sourceTree = SOURCE_ROOT; };
+		94F378321959375E0056D13F /* pictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pictureViewController.m; sourceTree = SOURCE_ROOT; };
+		94F378331959375E0056D13F /* pictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = pictureViewController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 				94F37800195898FE0056D13F /* CoreGraphics.framework in Frameworks */,
 				94F37802195898FE0056D13F /* UIKit.framework in Frameworks */,
 				94F377FE195898FE0056D13F /* Foundation.framework in Frameworks */,
+				8FB7D2C2BCD9469C8DA21DDE /* libPods-Week 1 - Facebook Post.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,7 @@
 				94F3781C195898FE0056D13F /* Week 1 - Facebook PostTests */,
 				94F377FC195898FE0056D13F /* Frameworks */,
 				94F377FB195898FE0056D13F /* Products */,
+				1FD858DFC276467E9B2B0054 /* Pods-Week 1 - Facebook Post.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +115,7 @@
 				94F377FF195898FE0056D13F /* CoreGraphics.framework */,
 				94F37801195898FE0056D13F /* UIKit.framework */,
 				94F37816195898FE0056D13F /* XCTest.framework */,
+				52B01EA61EEF4763AB3F524A /* libPods-Week 1 - Facebook Post.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +127,12 @@
 				94F3780D195898FE0056D13F /* AppDelegate.m */,
 				94F3780F195898FE0056D13F /* Images.xcassets */,
 				94F37804195898FE0056D13F /* Supporting Files */,
+				94F3782C1958EBED0056D13F /* postViewController.h */,
+				94F3782D1958EBED0056D13F /* postViewController.m */,
+				94F3782E1958EBED0056D13F /* postViewController.xib */,
+				94F378311959375E0056D13F /* pictureViewController.h */,
+				94F378321959375E0056D13F /* pictureViewController.m */,
+				94F378331959375E0056D13F /* pictureViewController.xib */,
 			);
 			path = "Week 1 - Facebook Post";
 			sourceTree = "<group>";
@@ -151,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94F37826195898FE0056D13F /* Build configuration list for PBXNativeTarget "Week 1 - Facebook Post" */;
 			buildPhases = (
+				BBC20B364E1D45B59B1E0AC1 /* Check Pods Manifest.lock */,
 				94F377F6195898FE0056D13F /* Sources */,
 				94F377F7195898FE0056D13F /* Frameworks */,
 				94F377F8195898FE0056D13F /* Resources */,
+				6E1A45FB08D546BB921A8EA3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,6 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F378301958EBED0056D13F /* postViewController.xib in Resources */,
+				94F378351959375E0056D13F /* pictureViewController.xib in Resources */,
 				94F37808195898FE0056D13F /* InfoPlist.strings in Resources */,
 				94F37810195898FE0056D13F /* Images.xcassets in Resources */,
 			);
@@ -234,12 +260,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E1A45FB08D546BB921A8EA3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Week 1 - Facebook Post-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC20B364E1D45B59B1E0AC1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		94F377F6195898FE0056D13F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				94F3780E195898FE0056D13F /* AppDelegate.m in Sources */,
+				94F378341959375E0056D13F /* pictureViewController.m in Sources */,
+				94F3782F1958EBED0056D13F /* postViewController.m in Sources */,
 				94F3780A195898FE0056D13F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +415,7 @@
 		};
 		94F37827195898FE0056D13F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FD858DFC276467E9B2B0054 /* Pods-Week 1 - Facebook Post.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -367,6 +429,7 @@
 		};
 		94F37828195898FE0056D13F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FD858DFC276467E9B2B0054 /* Pods-Week 1 - Facebook Post.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -437,6 +500,7 @@
 				94F37828195898FE0056D13F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94F37829195898FE0056D13F /* Build configuration list for PBXNativeTarget "Week 1 - Facebook PostTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +509,7 @@
 				94F3782B195898FE0056D13F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
